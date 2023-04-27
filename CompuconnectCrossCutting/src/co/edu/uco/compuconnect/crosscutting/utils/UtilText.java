@@ -27,6 +27,8 @@ public final class UtilText {
 		
 		return result;
 	}
+	
+	
 
 	public static final String getDefault(final  String text) {
 	return (getDefault(text,EMPTY));
