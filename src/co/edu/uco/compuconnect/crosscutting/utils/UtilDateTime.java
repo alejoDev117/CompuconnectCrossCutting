@@ -99,10 +99,7 @@ public final class UtilDateTime {
 		return DEFAULT_VALUE_LOCALTIME;
 	}
 
-	public static final LocalTime getDefaultValueLocaltime() {
-		return DEFAULT_VALUE_LOCALTIME;
-	}
-
+	
 	
 	
 	
