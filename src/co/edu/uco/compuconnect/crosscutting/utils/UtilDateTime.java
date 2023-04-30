@@ -34,6 +34,7 @@ public final class UtilDateTime {
         }
 		return dateTime;
 	}
+
 	
 	public static final LocalTime fromStringToLocalTime(final String localDateValue) {
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern(FORMAT_VALUE_LOCALTIME);
@@ -82,11 +83,26 @@ public final class UtilDateTime {
 		return DEFAULT_VALUE_DATE;
 	}
 
+
+	
+	public static final Date getDefaultDate(final Date dateValue) {
+		return UtilObject.isNull(dateValue) ? DEFAULT_VALUE_DATE : dateValue;
+	}
+	
+	public static final LocalTime getDefaultLocalTime(final LocalTime localTime) {
+		return UtilObject.isNull(localTime) ? DEFAULT_VALUE_LOCALTIME : localTime;
+	}
+
+
+
 	public static final LocalTime getDefaultValueLocaltime() {
 		return DEFAULT_VALUE_LOCALTIME;
 	}
 
-	
+	public static final LocalTime getDefaultValueLocaltime() {
+		return DEFAULT_VALUE_LOCALTIME;
+	}
+
 	
 	
 	
