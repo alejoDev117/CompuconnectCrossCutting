@@ -6,6 +6,7 @@ import java.text.SimpleDateFormat;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
+import java.util.UUID;
 
 public final class UtilDateTime {
 	
@@ -69,7 +70,10 @@ public final class UtilDateTime {
 	}
 
 
-
+	public static final Date getDefault(final Date dateValue) {
+		return UtilObject.isNull(dateValue) ? DEFAULT_VALUE_DATE : dateValue;
+		
+	}
 
 	public static final String getFormatValueDate() {
 		return FORMAT_VALUE_DATE;
