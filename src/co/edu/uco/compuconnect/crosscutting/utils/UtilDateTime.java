@@ -35,10 +35,6 @@ public final class UtilDateTime {
 		return dateTime;
 	}
 	
-	
-
-	
-	
 	public static final LocalTime fromStringToLocalTime(final String localDateValue) {
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern(FORMAT_VALUE_LOCALTIME);
         LocalTime localTime = LocalTime.parse(UtilText.getDefault(localDateValue, DEFAULT_VALUE_LOCALTIME_AS_STRING), formatter);
@@ -86,12 +82,13 @@ public final class UtilDateTime {
 		return DEFAULT_VALUE_DATE;
 	}
 
-
-
-
 	public static final LocalTime getDefaultValueLocaltime() {
 		return DEFAULT_VALUE_LOCALTIME;
 	}
+
+	
+	
+	
 	
 	
 }
