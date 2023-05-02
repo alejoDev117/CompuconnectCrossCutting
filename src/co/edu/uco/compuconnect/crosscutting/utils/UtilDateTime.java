@@ -1,6 +1,7 @@
 package co.edu.uco.compuconnect.crosscutting.utils;
 
 import java.text.DateFormat;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalTime;
@@ -42,11 +43,6 @@ public final class UtilDateTime {
         return localTime;
 	}
 	
-	
-	
-	public static void main(String[] args) throws ParseException {
-		System.out.println(fromStringToLocalTime(null));
-	}
 
 
 
@@ -83,8 +79,7 @@ public final class UtilDateTime {
 		return DEFAULT_VALUE_DATE;
 	}
 
-
-	//cambios
+	
 	
 	public static final Date getDefaultDate(final Date dateValue) {
 		return UtilObject.isNull(dateValue) ? DEFAULT_VALUE_DATE : dateValue;

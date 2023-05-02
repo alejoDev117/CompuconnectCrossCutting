@@ -44,9 +44,6 @@ public final class UtilUUID {
 		return UtilObject.isNull(uuidValue) ? DEFAULT_UUID : uuidValue;
 	}
 	
-	public static void main(String[] args) {
-		System.out.println(UtilUUID.uuidAsStringIsValid(DEFAULT_UUID_AS_STRING));
-	
-}
+
 	
 }
