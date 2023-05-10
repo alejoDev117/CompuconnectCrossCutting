@@ -1,60 +1,128 @@
 package co.edu.uco.compuconnect.crosscutting.utils;
 
 import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.SQLException;
 
+import co.edu.uco.compuconnect.crosscutting.exceptions.CompuconnectDataException;
 import co.edu.uco.compuconnect.crosscutting.exceptions.CompuconnectException;
 import co.edu.uco.compuconnect.crosscutting.exceptions.CompuconnectcCrossCuttingException;
 import co.edu.uco.compuconnect.crosscutting.utils.Messages.UtilSqlMessage;
 
-public final class UtilSql {
-	
-	
-	private UtilSql() {
-		super();
-	}
-	
-	public static boolean connectionIsOpen(final Connection connection) {
-		if(UtilObject.isNull(connection)) {
-			
-			throw CompuconnectcCrossCuttingException.create(UtilSqlMessage.CONNECTION_IS_OPEN__TECHNICAL_NULL_CONNECTION,UtilSqlMessage.CONNECTION_IS_OPEN_USER_MESSAGE);
-		}
-		
-		
-		try {
-			return !(connection.isClosed());
-		} catch (final SQLException exception) {
-			
-			throw CompuconnectcCrossCuttingException.create(UtilSqlMessage.CONNECTION_IS_OPEN__TECHNICAL_SQL_EXCEPTION,UtilSqlMessage.CONNECTION_IS_OPEN_USER_MESSAGE);
-			
-		} catch (final Exception exception) {
-			
-			throw CompuconnectcCrossCuttingException.create(UtilSqlMessage.CONNECTION_IS_OPEN__TECHNICAL_EXCEPTION, UtilSqlMessage.CONNECTION_IS_OPEN_USER_MESSAGE);
-			
-		} 
-			
-		
-	}
-	
-	public static boolean closeConnection(final Connection connection) {
-		try {
-		if(!connectionIsOpen(connection)) {	
-			connection.close();
-		}
-			}catch(CompuconnectcCrossCuttingException exception) {
-				
-				throw exception;
-				
-			} catch (final SQLException exception) {
-				
-				throw CompuconnectcCrossCuttingException.create(UtilSqlMessage.CONNECTION_IS_OPEN__TECHNICAL_SQL_EXCEPTION,UtilSqlMessage.CONNECTION_IS_OPEN_USER_MESSAGE);
-				
-			} catch (final Exception exception) {
-				
-				throw CompuconnectcCrossCuttingException.create(UtilSqlMessage.CONNECTION_IS_OPEN__TECHNICAL_EXCEPTION, UtilSqlMessage.CONNECTION_IS_OPEN_USER_MESSAGE);
-				
-			} 
-		}
-	}
+public class UtilSql {
 
+    public UtilSql() {
+        super();
+    }
+
+    private Connection conexion;
+
+    protected void abrirConexion() {
+        try {
+            conexion = DriverManager.getConnection("jdbc:postgresql://localhost:5432/compuconnect", "postgres", "Bijuus12");
+            validarConexionAbierta(conexion);
+        } catch (final IllegalArgumentException exception) {
+            var userMessage = UtilSqlMessage.CONNECTION_IS_OPEN_USER_MESSAGE;
+            var technicalMessage = UtilSqlMessage.CONNECTION_IS_OPEN_TECHNICAL_ILEGAL_ARGUMENT_EXCEPTION;
+            throw CompuconnectDataException.create(userMessage, technicalMessage, exception);
+        } catch (final NullPointerException exception) {
+            var userMessage = UtilSqlMessage.CONNECTION_IS_OPEN_USER_MESSAGE;
+            var technicalMessage = UtilSqlMessage.CONNECTION_IS_OPEN_TECHNICAL_NULL_POINTER_EXCEPTION;
+            throw CompuconnectDataException.create(userMessage, technicalMessage, exception);
+        } catch (final Exception exception) {
+            var userMessage = UtilSqlMessage.CONNECTION_IS_OPEN_USER_MESSAGE;
+            var technicalMessage = UtilSqlMessage.CONNECTION_IS_OPEN_TECHNICAL_EXCEPTION;
+            throw CompuconnectDataException.create(userMessage, technicalMessage, exception);
+        }
+    }
+
+    protected void cerrarConexion() {
+        try {
+            conexion.close();
+        } catch (final CompuconnectException exception) {
+            throw exception;
+        } catch (final Exception exception) {
+            var userMessage = UtilSqlMessage.CLOSE_CONNECTION_USER_MESSAGE;
+            var technicalMessage = UtilSqlMessage.CLOSE_CONNECTION_TECHNICAL_EXCEPTION;
+            throw CompuconnectDataException.create(userMessage, technicalMessage, exception);
+        }
+    }
+
+    protected void iniciarTransaccion() {
+        try {
+            validarConexionAbierta(conexion);
+            conexion.setAutoCommit(false);
+        } catch (final CompuconnectException exception) {
+            throw exception;
+        } catch (final SQLException exception) {
+            var userMessage = UtilSqlMessage.COMMIT_IS_STARTING_USER_MESSAGE;
+            var technicalMessage = UtilSqlMessage.COMMIT_TECHNICAL_SQL_EXCEPTION;
+            throw CompuconnectcCrossCuttingException.create(userMessage, technicalMessage, exception);
+        }
+    }
+
+    protected void confirmarTransaccion() {
+        try {
+            validarConfirmacionLista(conexion);
+            conexion.commit();
+        } catch (CompuconnectException exception) {
+            throw exception;
+        } catch (SQLException exception) {
+            var userMessage = UtilSqlMessage.CONFIRM_COMMIT_USER_MESSAGE;
+            var technicalMessage = UtilSqlMessage.COMMIT_TECHNICAL_SQL_EXCEPTION;
+            throw CompuconnectcCrossCuttingException.create(userMessage, technicalMessage, exception);
+        }
+    }
+
+    protected void cancelarTransaccion() {
+        try {
+            validarConfirmacionLista(conexion);
+            conexion.rollback();
+        } catch (CompuconnectException exception) {
+            throw exception;
+        } catch (SQLException exception) {
+            var userMessage = UtilSqlMessage.CANCEL_COMMIT_USER_MESSAGE;
+            var technicalMessage = UtilSqlMessage.COMMIT_TECHNICAL_SQL_EXCEPTION;
+            throw CompuconnectcCrossCuttingException.create(userMessage, technicalMessage, exception);
+        }
+    }
+
+    private void validarConexionAbierta(Connection conexion) {
+        if (conexion == null) {
+            var userMessage = UtilSqlMessage.CONNECTION_IS_OPEN_USER_MESSAGE;
+            var technicalMessage = UtilSqlMessage.CONNECTION_IS_OPEN_TECHNICAL_NULL_POINTER_EXCEPTION;
+            throw CompuconnectDataException.create(userMessage, technicalMessage, new NullPointerException());
+        }
+    }
+
+    private void validarConfirmacionLista(Connection conexion) {
+        if (conexion == null) {
+            var userMessage = UtilSqlMessage.COMMIT_IS_READY_USER_MESSAGE;
+            var technicalMessage = UtilSqlMessage.COMMIT_IS_READY_TECHNICAL_NULL_POINTER_EXCEPTION;
+            throw CompuconnectcCrossCuttingException.create(userMessage, technicalMessage, new NullPointerException());
+        }
+    }
+    
+    //prueba 
+    
+    public static void main(String[] args) {
+        UtilSql utilSql = new UtilSql();
+
+        try {
+            utilSql.abrirConexion();
+            System.out.println("Conexión exitosa");
+        } catch (CompuconnectException e) {
+            e.printStackTrace();
+        } finally {
+            utilSql.cerrarConexion();
+        }
+    }
+   
 }
+
+
+
+
+
+
+
