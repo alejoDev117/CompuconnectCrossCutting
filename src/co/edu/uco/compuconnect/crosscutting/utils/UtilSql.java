@@ -17,7 +17,7 @@ public final class UtilSql {
 	public static boolean connectionIsOpen(final Connection connection) {
 		if(UtilObject.isNull(connection)) {
 			
-			throw CompuconnectcCrossCuttingException.create(UtilSqlMessage.CONNECTION_IS_OPEN__TECHNICAL_NULL_CONNECTION,UtilSqlMessage.CONNECTION_IS_OPEN_USER_MESSAGE);
+			throw CompuconnectcCrossCuttingException.create(UtilSqlMessage.CONNECTION_IS_OPEN_TECHNICAL_NULL_CONNECTION,UtilSqlMessage.CONNECTION_IS_OPEN_USER_MESSAGE);
 		}
 		
 		
@@ -25,11 +25,11 @@ public final class UtilSql {
 			return !(connection.isClosed());
 		} catch (final SQLException exception) {
 			
-			throw CompuconnectcCrossCuttingException.create(UtilSqlMessage.CONNECTION_IS_OPEN__TECHNICAL_SQL_EXCEPTION,UtilSqlMessage.CONNECTION_IS_OPEN_USER_MESSAGE);
+			throw CompuconnectcCrossCuttingException.create(UtilSqlMessage.CONNECTION_IS_OPEN_TECHNICAL_SQL_EXCEPTION,UtilSqlMessage.CONNECTION_IS_OPEN_USER_MESSAGE);
 			
 		} catch (final Exception exception) {
 			
-			throw CompuconnectcCrossCuttingException.create(UtilSqlMessage.CONNECTION_IS_OPEN__TECHNICAL_EXCEPTION, UtilSqlMessage.CONNECTION_IS_OPEN_USER_MESSAGE);
+			throw CompuconnectcCrossCuttingException.create(UtilSqlMessage.CONNECTION_IS_OPEN_TECHNICAL_EXCEPTION, UtilSqlMessage.CONNECTION_IS_OPEN_USER_MESSAGE);
 			
 		} 
 			
@@ -47,14 +47,16 @@ public final class UtilSql {
 				
 			} catch (final SQLException exception) {
 				
-				throw CompuconnectcCrossCuttingException.create(UtilSqlMessage.CONNECTION_IS_OPEN__TECHNICAL_SQL_EXCEPTION,UtilSqlMessage.CONNECTION_IS_OPEN_USER_MESSAGE);
+				throw CompuconnectcCrossCuttingException.create(UtilSqlMessage.CONNECTION_IS_CLOSE_TECHNICAL_SQL_EXCEPTION,UtilSqlMessage.CONNECTION_IS_OPEN_USER_MESSAGE);
 				
 			} catch (final Exception exception) {
 				
-				throw CompuconnectcCrossCuttingException.create(UtilSqlMessage.CONNECTION_IS_OPEN__TECHNICAL_EXCEPTION, UtilSqlMessage.CONNECTION_IS_OPEN_USER_MESSAGE);
+				throw CompuconnectcCrossCuttingException.create(UtilSqlMessage.CONNECTION_IS_CLOSE_TECHNICAL_EXCEPTION, UtilSqlMessage.CONNECTION_IS_OPEN_USER_MESSAGE);
 				
 			} 
+		return true;
 		}
-	}
-
+	
+	
 }
+
