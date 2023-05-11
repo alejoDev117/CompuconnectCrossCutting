@@ -19,7 +19,7 @@ public class UtilSql {
 
     protected void abrirConexion() {
         try {
-            conexion = DriverManager.getConnection("jdbc:postgresql://localhost:5432/compuconnect", "postgres", "Bijuus12");
+            conexion = DriverManager.getConnection("jdbc:postgresql://localhost:5432/compuconnect", "postgres", "pass");
             validarConexionAbierta(conexion);
         } catch (final IllegalArgumentException exception) {
             var userMessage = UtilSqlMessage.CONNECTION_IS_OPEN_USER_MESSAGE;
