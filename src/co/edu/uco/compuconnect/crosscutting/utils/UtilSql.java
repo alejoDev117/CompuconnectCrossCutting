@@ -15,7 +15,7 @@ public class UtilSql {
         super();
     }
 
-    private static Connection conexion;
+    public static Connection conexion;
 
     public static void abrirConexion() {
         try {
