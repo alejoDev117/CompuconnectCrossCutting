@@ -15,9 +15,9 @@ public class UtilSql {
         super();
     }
 
-    private Connection conexion;
+    private static Connection conexion;
 
-    protected void abrirConexion() {
+    public static void abrirConexion() {
         try {
             conexion = DriverManager.getConnection("jdbc:postgresql://localhost:5432/compuconnect", "postgres", "pass");
             validarConexionAbierta(conexion);
@@ -36,7 +36,7 @@ public class UtilSql {
         }
     }
 
-    protected void cerrarConexion() {
+    public static void cerrarConexion() {
         try {
             conexion.close();
         } catch (final CompuconnectException exception) {
@@ -48,7 +48,7 @@ public class UtilSql {
         }
     }
 
-    protected void iniciarTransaccion() {
+    public static  void iniciarTransaccion() {
         try {
             validarConexionAbierta(conexion);
             conexion.setAutoCommit(false);
@@ -61,7 +61,7 @@ public class UtilSql {
         }
     }
 
-    protected void confirmarTransaccion() {
+    public static void confirmarTransaccion() {
         try {
             validarConfirmacionLista(conexion);
             conexion.commit();
@@ -74,7 +74,7 @@ public class UtilSql {
         }
     }
 
-    protected void cancelarTransaccion() {
+    public static void cancelarTransaccion() {
         try {
             validarConfirmacionLista(conexion);
             conexion.rollback();
@@ -87,7 +87,7 @@ public class UtilSql {
         }
     }
 
-    private void validarConexionAbierta(Connection conexion) {
+    private static void validarConexionAbierta(Connection conexion) {
         if (conexion == null) {
             var userMessage = UtilSqlMessage.CONNECTION_IS_OPEN_USER_MESSAGE;
             var technicalMessage = UtilSqlMessage.CONNECTION_IS_OPEN_TECHNICAL_NULL_POINTER_EXCEPTION;
@@ -95,7 +95,7 @@ public class UtilSql {
         }
     }
 
-    private void validarConfirmacionLista(Connection conexion) {
+    private static void validarConfirmacionLista(Connection conexion) {
         if (conexion == null) {
             var userMessage = UtilSqlMessage.COMMIT_IS_READY_USER_MESSAGE;
             var technicalMessage = UtilSqlMessage.COMMIT_IS_READY_TECHNICAL_NULL_POINTER_EXCEPTION;
