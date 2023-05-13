@@ -1,4 +1,4 @@
-package co.edu.uco.compuconnect.crosscutting.utils;
+ package co.edu.uco.compuconnect.crosscutting.utils;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
