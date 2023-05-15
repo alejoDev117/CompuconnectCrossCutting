@@ -2,7 +2,7 @@ package co.edu.uco.compuconnect.crosscutting.utils;
 
 public final class UtilText {
 	
-
+	private final static UtilText INSTANCE = new UtilText();
 	private static final String EMPTY = "";
 	
 	
@@ -11,7 +11,9 @@ public final class UtilText {
 	}
 	
 	
-
+	public static final UtilText getUtilText() {
+		return INSTANCE;
+	}
 	
 	public static boolean isNull(final String text) {
 		return UtilObject.isNull(text);
