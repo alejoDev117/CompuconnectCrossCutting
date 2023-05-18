@@ -303,5 +303,215 @@ public final class Messages {
 		public static final String ELIMINAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar un usuario, Por favor intente nuevamente y si persiste comuniquese con el administrador de sistema...";
 		public static final String ELIMINAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de eliminar un  UsuarioDTO. Por favor valide la traza completa de la excepcion presentada";
 	}
+	
+	public static final class AgendaFacadeImpMessage{
+		private AgendaFacadeImpMessage() {
+			
+		}
+		public static final String CREAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de crear una nueva agenda, Por favor intente nuevamente y si persiste comuniquese con el administrador de sistema...";
+		public static final String CREAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de crear una nueva AgendaDTO. Por favor valide la traza completa de la excepcion presentada";
+		public static final String MODIFICAR_EXCEPCTION_USER_MESSAGE = "Se ha presentado un problema tratando de modificar la informacion de una agenda, Por favor intente nuevamente y si persiste comuniquese con el administrador de sistema...";
+		public static final String MODIFICAR_EXCEPTION_TECHNICAL_MESSAGE ="Se ha presentado una excepcion no conocida tratando de actualizar la informacion  una AgendaDTO. Por favor valide la traza completa de la excepcion presentada";
+		public static final String CONSULTAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de consultar una agenda, Por favor intente nuevamente y si persiste comuniquese con el administrador de sistema...";
+		public static final String CONSULTAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de listar las AgendaDTO. Por favor valide la traza completa de la excepcion presentada";
+		public static final String ELIMINAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar una agenda, Por favor intente nuevamente y si persiste comuniquese con el administrador de sistema...";
+		public static final String ELIMINAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de eliminar una AgendaDTO. Por favor valide la traza completa de la excepcion presentada";
+
+	}
+	public static final class AgendaReservaFacadeImpMessage{
+		private AgendaReservaFacadeImpMessage() {
+			
+		}
+		public static final String CREAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de crear el vinculo de agenda y reserva. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String CREAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de crear AgendaReservaDTO. Por favor valide la traza completa de la excepcion presentada....";
+		public static final String CONSULTAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de consultar las reservas en agendas. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String CONSULTAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de listar las AgendaReservaDTO. Por favor valide la traza completa de la excepcion presentada...";
+		public static final String ELIMINAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de cancelar una reserva en una agenda. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String ELIMINAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de eliminar AgendaReservaDTO. Por favor valide la traza completa de la excepcion presentada....";
+		
+	}
+	
+	public static final class BuzonSolicitudFacadeImpMessage{
+		private BuzonSolicitudFacadeImpMessage() {
+			
+		}
+		public static final String GENERAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de vincular una solicitud con el buzon de solicitudes. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String GENERAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de generar BuzonSolicitudDTO. Por favor valide la traza completa de la excepcion presentada....";
+		public static final String CONSULTAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de consultar las solicitudes en el buzon. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String CONSULTAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de listar las BuzonSolicitudDTO. Por favor valide la traza completa de la excepcion presentada...";
+		public static final String ACTUALIZAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de actualizar el buzon de solicitudes. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String ACTUALIZAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de actualizar  BuzonSolicitudDTO. Por favor valide la traza completa de la excepcion presentada....";
+		
+	
+	}
+	public static final class CentroInformaticaEquipoComputoFacadeImpMessage{
+		private CentroInformaticaEquipoComputoFacadeImpMessage() {
+			
+		}
+		public static final String CREAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de vincular un equipo computo con un centro de informatica. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String CREAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de crear un CentroInformaticaEquipoComputoDTO. Por favor valide la traza completa de la excepcion presentada....";
+		public static final String CONSULTAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de consultar los equipos de computo disponibles en un centro informatica. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String CONSULTAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de listar los CentroInformaticaEquipoComputoDTO. Por favor valide la traza completa de la excepcion presentada...";
+		public static final String ELIMINAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar un equipo computo de un centro informatica. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String ELIMINAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de eliminar  un CentroInformaticaEquipoComputoDTO. Por favor valide la traza completa de la excepcion presentada....";
+	}
+	public static final class ContenidoFacadeImpMessage{
+		private ContenidoFacadeImpMessage() {
+	}
+		public static final String CREAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de crear un contenido. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String CREAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de crear un ContenidoDTO. Por favor valide la traza completa de la excepcion presentada....";
+		public static final String CONSULTAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de consultar los contenidos. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String CONSULTAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de listar los ContenidoDTO. Por favor valide la traza completa de la excepcion presentada...";
+		public static final String ELIMINAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar un contenido Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String ELIMINAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de eliminar  un ContenidoDTO. Por favor valide la traza completa de la excepcion presentada....";
+	}
+	public static final class DestinatarioFacadeImpMessage{
+		private DestinatarioFacadeImpMessage() {
+	}
+		public static final String REGISTRAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de registrar un nuevo destinatario, Por favor intente nuevamente y si persiste comuniquese con el administrador de sistema...";
+		public static final String REGISTRAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de registrar un nuevo DestinatarioDTO. Por favor valide la traza completa de la excepcion presentada";
+		public static final String MODIFICAR_EXCEPCTION_USER_MESSAGE = "Se ha presentado un problema tratando de modificar la informacion de un destinatario, Por favor intente nuevamente y si persiste comuniquese con el administrador de sistema...";
+		public static final String MODIFICAR_EXCEPTION_TECHNICAL_MESSAGE ="Se ha presentado una excepcion no conocida tratando de actualizar la informacion  un  DestinatarioDTO. Por favor valide la traza completa de la excepcion presentada";
+		public static final String CONSULTAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de consultar un destinatario, Por favor intente nuevamente y si persiste comuniquese con el administrador de sistema...";
+		public static final String CONSULTAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de listar los  DestinatarioDTO. Por favor valide la traza completa de la excepcion presentada";
+		public static final String ELIMINAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar un destinatario, Por favor intente nuevamente y si persiste comuniquese con el administrador de sistema...";
+		public static final String ELIMINAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de eliminar un  DestinatarioDTO. Por favor valide la traza completa de la excepcion presentada";
+	}
+	public static final class DestinatarioNotificacionFacadeImpMessage{
+		private DestinatarioNotificacionFacadeImpMessage() {
+			
+		}
+		public static final String CREAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de vincular una notificacion con un destinatario. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String CREAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de crear un DestinatarioNotificacionDTO. Por favor valide la traza completa de la excepcion presentada....";
+		public static final String CONSULTAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de consultar las notificaciones asociadas a destinatarios. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String CONSULTAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de listar los DestinatarioNotificacionDTO. Por favor valide la traza completa de la excepcion presentada...";
+		public static final String ELIMINAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar una notificacion de un destinatario. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String ELIMINAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de eliminar  un DestinatarioNotificacionDTO. Por favor valide la traza completa de la excepcion presentada....";
+	}
+	public static final class DetalleReservaFacadeImpMessage{
+		private DetalleReservaFacadeImpMessage() {
+			
+		}
+		public static final String CREAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de crear el detalle de una reserva, Por favor intente nuevamente y si persiste comuniquese con el administrador de sistema...";
+		public static final String CREAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de crear un nuevo DetalleReservaDTO. Por favor valide la traza completa de la excepcion presentada";
+		public static final String MODIFICAR_EXCEPCTION_USER_MESSAGE = "Se ha presentado un problema tratando de modificar el detalle de una reserva, Por favor intente nuevamente y si persiste comuniquese con el administrador de sistema...";
+		public static final String MODIFICAR_EXCEPTION_TECHNICAL_MESSAGE ="Se ha presentado una excepcion no conocida tratando de modificar la informacion  un  DetalleReservaDTO. Por favor valide la traza completa de la excepcion presentada";
+		public static final String CONSULTAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de consultar los detalles de una reserva , Por favor intente nuevamente y si persiste comuniquese con el administrador de sistema...";
+		public static final String CONSULTAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de listar los  DetalleReservaDTO. Por favor valide la traza completa de la excepcion presentada";
+		public static final String ELIMINAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar un detalle de reserva, Por favor intente nuevamente y si persiste comuniquese con el administrador de sistema...";
+		public static final String ELIMINAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de eliminar un  DetalleReservaDTO. Por favor valide la traza completa de la excepcion presentada";
+	}
+	public static final class ExcepcionAgendaFacadeImpMessage{
+		private ExcepcionAgendaFacadeImpMessage() {
+			
+		}
+		public static final String ASIGNAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de asingar una excepcion a una agenda. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String ASIGNAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de asignar un ExcepcionAgendaDTO. Por favor valide la traza completa de la excepcion presentada....";
+		public static final String CONSULTAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de consultar las excepciones asigandas en agendas. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String CONSULTAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de listar las ExcepcionAgendaDTO. Por favor valide la traza completa de la excepcion presentada...";
+		public static final String ELIMINAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar una excepcion asignada a una agenda. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String ELIMINAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de eliminar una ExcepcionAgendaDTO. Por favor valide la traza completa de la excepcion presentada....";
+	}
+	public static final class HorarioPersonaEncargadaFacadeImpMessage{
+		private HorarioPersonaEncargadaFacadeImpMessage() {
+			
+		}
+		public static final String ASIGNAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de asingar el horario a una persona encargada. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String ASIGNAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de asignar un HorarioPersonaEncargadaDTO. Por favor valide la traza completa de la excepcion presentada....";
+		public static final String CONSULTAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de consultar los horarios de personas encargadas. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String CONSULTAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de listar los HorarioPersonaEncargadaDTO. Por favor valide la traza completa de la excepcion presentada...";
+		public static final String ELIMINAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar un horario de una persona encargada. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String ELIMINAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de eliminar un HorarioPersonaEncargadaDTO. Por favor valide la traza completa de la excepcion presentada....";
+	}
+	public static final class NotificacionFacadeImpMessage{
+		private NotificacionFacadeImpMessage() {
+			
+		}
+		public static final String GENERAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de generar una notificacion. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String GENERAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de generar una NotificacionDTO. Por favor valide la traza completa de la excepcion presentada....";
+		
+	}
+	public static final class PeriodoFuncionamientoDiaFestivoFacadeImpMessage{
+		private PeriodoFuncionamientoDiaFestivoFacadeImpMessage() {
+			
+		}
+		public static final String CREAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de vincular un dia festivo a un periodo funcionamiento. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String CREAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de crear un PeriodoFuncionamientoDiaFestivoDTO. Por favor valide la traza completa de la excepcion presentada....";
+		public static final String CONSULTAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de consultar los dias asociados a un periodo de funcionamiento. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String CONSULTAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de listar los PeriodoFuncionamientoDiaFestivoDTO. Por favor valide la traza completa de la excepcion presentada...";
+		public static final String ELIMINAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar un dia festivo en un periodo funcionamiento. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String ELIMINAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de eliminar  un PeriodoFuncionamientoDiaFestivoDTO. Por favor valide la traza completa de la excepcion presentada....";
+	}
+	public static final class PersonaEncargadaFacadeImpMessage{
+		private PersonaEncargadaFacadeImpMessage() {
+			
+		}
+		public static final String CREAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de crear una persona encargada, Por favor intente nuevamente y si persiste comuniquese con el administrador de sistema...";
+		public static final String CREAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de crear una nueva  PersonaEncargadaDTO. Por favor valide la traza completa de la excepcion presentada";
+		public static final String MODIFICAR_EXCEPCTION_USER_MESSAGE = "Se ha presentado un problema tratando de modificar la informacion de una persona encargada, Por favor intente nuevamente y si persiste comuniquese con el administrador de sistema...";
+		public static final String MODIFICAR_EXCEPTION_TECHNICAL_MESSAGE ="Se ha presentado una excepcion no conocida tratando de modificar la informacion  una  PersonaEncargadaDTO. Por favor valide la traza completa de la excepcion presentada";
+		public static final String CONSULTAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de consultar las personas encargadas, Por favor intente nuevamente y si persiste comuniquese con el administrador de sistema...";
+		public static final String CONSULTAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de listar las  PersonaEncargadaDTO. Por favor valide la traza completa de la excepcion presentada";
+		public static final String ELIMINAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar una persona encargada, Por favor intente nuevamente y si persiste comuniquese con el administrador de sistema...";
+		public static final String ELIMINAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de eliminar una PersonaEncargadaDTO. Por favor valide la traza completa de la excepcion presentada";
+	
+	}
+	public static final class ReservaPerfilFacadeImpMessage{
+		private ReservaPerfilFacadeImpMessage() {
+			
+		}
+		public static final String CREAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de vincular una reserva a un perfil. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String CREAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de crear un ReservaPerfilDTO. Por favor valide la traza completa de la excepcion presentada....";
+		public static final String CONSULTAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de consultar las reservas asociadas a un perfil. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String CONSULTAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de listar las ReservaPerfilDTO. Por favor valide la traza completa de la excepcion presentada...";
+		public static final String ELIMINAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar una reserva de un perfil. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String ELIMINAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de eliminar  una ReservaPerfilDTO. Por favor valide la traza completa de la excepcion presentada....";
+	}
+	public static final class RespuestaFacadeImpMessage{
+		private RespuestaFacadeImpMessage() {
+			
+		}
+		public static final String REALIZAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de generar la respuesta. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String REALIZAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de generar RespuestaDTO. Por favor valide la traza completa de la excepcion presentada....";
+		public static final String CONSULTAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de consultar las respuestas. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String CONSULTAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de listar las RespuestaDTO. Por favor valide la traza completa de la excepcion presentada...";
+		public static final String ELIMINAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar una respuesta. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String ELIMINAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de eliminar  una RespuestaDTO. Por favor valide la traza completa de la excepcion presentada....";
+	}
+	public static final class SoftwareEquipoComputoFacadeImpMessage{
+		private SoftwareEquipoComputoFacadeImpMessage() {
+			
+		}
+		public static final String CREAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de crear el vinculo entre el software y el equipo computo. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String CREAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de generar SoftwareEquipoComputoDTO. Por favor valide la traza completa de la excepcion presentada....";
+		public static final String CONSULTAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de consultar los softwares instalados en un equipo de computo. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String CONSULTAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de listar los SoftwareEquipoComputoDTO. Por favor valide la traza completa de la excepcion presentada...";
+		public static final String ELIMINAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar un software de un equipo de computo. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String ELIMINAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de eliminar un SoftwareEquipoComputoDTO. Por favor valide la traza completa de la excepcion presentada....";
+	}
+	public static final class SolicitudPerfilFacadeImpMessage{
+		private SolicitudPerfilFacadeImpMessage() {
+			
+		}
+		public static final String CREAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de crear el vinculo entre el solicitud y el perfil. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String CREAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de generar SolicitudPerfilDTO. Por favor valide la traza completa de la excepcion presentada....";
+		public static final String CONSULTAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de consultar las solicitudes asociadas a un perfil. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String CONSULTAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de listar las SolicitudPerfilDTO. Por favor valide la traza completa de la excepcion presentada...";
+		public static final String ELIMINAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar una solicitud de un perfil. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String ELIMINAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de eliminar una SolicitudPerfilDTO. Por favor valide la traza completa de la excepcion presentada....";
+	}
+	public static final class TiempoFuncionamientoCentroInformaticaFacadeImpMessage{
+		private TiempoFuncionamientoCentroInformaticaFacadeImpMessage() {
+			
+		}
+		public static final String CREAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de configurar el tiempo de funcionamiento de un centro de informatica. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String CREAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de crear TiempoFuncionamientoCentroInformaticaDTO. Por favor valide la traza completa de la excepcion presentada....";
+		public static final String CONSULTAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de consultar los tiempos en los que funciona un centro de informatica. Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String CONSULTAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de listar los TiempoFuncionamientoCentroInformaticaDTO. Por favor valide la traza completa de la excepcion presentada...";
+		public static final String ELIMINAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar un tiempo de funcionamiento de un centro de informatica . Por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema...";
+		public static final String ELIMINAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida tratando de eliminar un TiempoFuncionamientoCentroInformaticaDTO. Por favor valide la traza completa de la excepcion presentada....";
+		
+		
+	}
 }
 
