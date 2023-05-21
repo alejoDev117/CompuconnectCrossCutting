@@ -15,9 +15,8 @@ public class UtilSql {
         super();
     }
 
-    public static Connection connection;
 
-    public static void abrirConexion() {
+    public static void abrirConexion(Connection connection) {
         try {
         	connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/Compuconnect", "postgres", "admin");
             validarConexionAbierta(connection);
@@ -37,7 +36,7 @@ public class UtilSql {
         
     }
 
-    public static void cerrarConexion() {
+    public static void cerrarConexion(Connection connection) {
         try {
         	connection.close();
         } catch (final CompuconnectException exception) {
@@ -49,7 +48,7 @@ public class UtilSql {
         }
     }
 
-    public static  void iniciarTransaccion() {
+    public static  void iniciarTransaccion(Connection connection) {
         try {
             validarConexionAbierta(connection);
             connection.setAutoCommit(false);
@@ -62,7 +61,7 @@ public class UtilSql {
         }
     }
 
-    public static void confirmarTransaccion() {
+    public static void confirmarTransaccion(Connection connection) {
         try {
             validarConfirmacionLista(connection);
             connection.commit();
@@ -75,7 +74,7 @@ public class UtilSql {
         }
     }
 
-    public static void cancelarTransaccion() {
+    public static void cancelarTransaccion(Connection connection) {
         try {
             validarConfirmacionLista(connection);
             connection.rollback();
