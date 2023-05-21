@@ -5,6 +5,7 @@ public final class Messages {
 	private Messages() {
 		
 	}
+	
 
 	public static final class UtilSqlMessage {
 		
@@ -513,5 +514,12 @@ public final class Messages {
 		
 		
 	}
+	public static final class DAOFactoryMessage{
+		private DAOFactoryMessage() {
+			
+		}
+		public static final String DATA_BASE_NO_IMPLEMENT_EXCEPTION = "La fuente de datos especificada no esta implementada...";
+	}
+
 }
 
