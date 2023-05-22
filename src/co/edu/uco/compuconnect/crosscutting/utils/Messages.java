@@ -521,5 +521,21 @@ public final class Messages {
 		public static final String DATA_BASE_NO_IMPLEMENT_EXCEPTION = "La fuente de datos especificada no esta implementada...";
 	}
 
+	public static final class IdentificadorValidationMessage{
+		private IdentificadorValidationMessage() {
+			
+		}
+		public static final String IDENTIFICADOR_EMPTY_MESSAGE = "No es posible continuar con el identificador  vacio...";
+		public static final String IDENTIFICADOR_DEFAULT_MESSAGE = "No es posible tener el identificador por defecto...";
+	}
+	
+	
+	public static final class CentroInformaticaControllerMessage{
+		private CentroInformaticaControllerMessage() {
+			
+		}
+		public static final String GET_RESPONSE_SUCCESSFULLY = "Se han consultado los centros de informatica exitosamente...";
+		
+	}
 }
 
