@@ -16,25 +16,6 @@ public class UtilSql {
     }
 
 
-    public static void abrirConexion(Connection connection) {
-        try {
-        	connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/Compuconnect", "postgres", "admin");
-            connectionIsOpen(connection);
-        } catch (final IllegalArgumentException exception) {
-            var userMessage = UtilSqlMessage.CONNECTION_IS_OPEN_USER_MESSAGE;
-            var technicalMessage = UtilSqlMessage.CONNECTION_IS_OPEN_TECHNICAL_ILEGAL_ARGUMENT_EXCEPTION;
-            throw CompuconnectDataException.create(userMessage, technicalMessage, exception);
-        } catch (final NullPointerException exception) {
-            var userMessage = UtilSqlMessage.CONNECTION_IS_OPEN_USER_MESSAGE;
-            var technicalMessage = UtilSqlMessage.CONNECTION_IS_OPEN_TECHNICAL_NULL_POINTER_EXCEPTION;
-            throw CompuconnectDataException.create(userMessage, technicalMessage, exception);
-        } catch (final Exception exception) {
-            var userMessage = UtilSqlMessage.CONNECTION_IS_OPEN_USER_MESSAGE;
-            var technicalMessage = UtilSqlMessage.CONNECTION_IS_OPEN_TECHNICAL_EXCEPTION;
-            throw CompuconnectDataException.create(userMessage, technicalMessage, exception);
-        }
-        
-    }
 
     public static void cerrarConexion(Connection connection) {
         try {
@@ -88,7 +69,7 @@ public class UtilSql {
     }
 
     private static void validarConfirmacionLista(Connection connection) {
-        if (connection == null) {
+        if (UtilObject.isNull(connection)) {
             var userMessage = UtilSqlMessage.COMMIT_IS_READY_USER_MESSAGE;
             var technicalMessage = UtilSqlMessage.COMMIT_IS_READY_TECHNICAL_NULL_POINTER_EXCEPTION;
             throw CompuconnectcCrossCuttingException.create(userMessage, technicalMessage, new NullPointerException());
