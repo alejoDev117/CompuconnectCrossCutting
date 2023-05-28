@@ -537,5 +537,30 @@ public final class Messages {
 		public static final String GET_RESPONSE_SUCCESSFULLY = "Se han consultado los centros de informatica exitosamente...";
 		
 	}
+	public static final class SqlDAOMessage{
+		private SqlDAOMessage() {
+			
+		}
+		public static final String SET_CONNECTION_EXCEPTION_USER_MESSAGE ="Se ha presentado un error tratando de llevar a cabo la operacion deseada por favor intente de nuevo y si el problema persiste contecte al administrador del sistema";
+		public static final String SET_CONNECTION_EXCEPTION_TECHNICAL_MESSAGE = "No se ha podido crear el SqlDAO debido a que la conexion no esta abierta";
+	}
+	public static final class AgendaPostgresqlDAOMessage{
+		private AgendaPostgresqlDAOMessage() {
+			
+		}
+		public static final String CREATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de registrar la informacion de la nueva agenda...";
+		public static final String CREATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo create de la clase AgendaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String CREATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de registrar la informacion de la nueva agenda...";
+		public static final String CREATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo create de la clase AgendaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar la informacion de una agenda...";
+		public static final String DELETE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo delete de la clase AgendaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de eliminar la informacion de una agenda...";
+		public static final String DELETE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo delete de la clase AgendaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String UPDATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de actualizar la informacion de una agenda...";
+		public static final String UPDATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo update de la clase AgendaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String UPDATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de actualizar la informacion de una agenda...";
+		public static final String UPDATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo update de la clase AgendaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		
+	}
 }
 
