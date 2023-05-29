@@ -22,7 +22,7 @@ public final class UtilUUID {
 	}
 	
 	public static final boolean uuidAsStringIsValid(final String uuidValue) {
-		return UtilText.matchPattern(uuidValue, UUID_RE);
+		return UtilText.getUtilText().matchPattern(uuidValue, UUID_RE);
 	}
 	
 	

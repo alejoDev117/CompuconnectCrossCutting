@@ -15,11 +15,11 @@ public final class UtilText {
 		return INSTANCE;
 	}
 	
-	public static boolean isNull(final String text) {
+	public  boolean isNull(final String text) {
 		return UtilObject.isNull(text);
 	}
 	
-	public static final String getDefault(final  String text, String defaultValue) {
+	public  final String getDefault(final  String text, String defaultValue) {
 		
 		String result = text;
 		
@@ -32,30 +32,30 @@ public final class UtilText {
 	
 	
 
-	public static final String getDefault(final  String text) {
+	public  final String getDefault(final  String text) {
 	return (getDefault(text,EMPTY));
 	}
 	
-	public static  final boolean isEmpty(final String text) {
+	public   final boolean isEmpty(final String text) {
 		return applyTrim(text).equals(EMPTY);
 		
 	}
 	
-	public static final String getDefaultIfEmpty(final String text, final String defaultValue) {
+	public  final String getDefaultIfEmpty(final String text, final String defaultValue) {
 		return isEmpty(text) ? getDefault(defaultValue) : text;
 	}
 	
 	
-	public static final String applyTrim(final String text) {
+	public  final String applyTrim(final String text) {
 		return getDefault(text).trim();
 	}
 
 
-	public static final String getDefaultValue() {
+	public  final String getDefaultValue() {
 		return EMPTY;
 	}
 	
-	public static  final boolean matchPattern(final String text, final String pattern) {
+	public   final boolean matchPattern(final String text, final String pattern) {
 		return (getDefault(text).matches(getDefault(pattern)));
 		
 	}

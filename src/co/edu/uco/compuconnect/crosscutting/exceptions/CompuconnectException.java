@@ -18,7 +18,7 @@ public abstract  class CompuconnectException extends RuntimeException{
 	
 	
 	public final String getTechnicalMessage() {
-		return UtilText.getDefaultIfEmpty(getMessage(), getUserMessage());
+		return UtilText.getUtilText().getDefaultIfEmpty(getMessage(), getUserMessage());
 	}
 	
 	public final Throwable getRootCause() {
@@ -38,7 +38,7 @@ public abstract  class CompuconnectException extends RuntimeException{
 	}
 
 	public final void setUserMessage(final String userMessage) {
-		this.userMessage = UtilText.getDefault(userMessage);
+		this.userMessage = UtilText.getUtilText().getDefault(userMessage);
 	}
 
 	public static final long getSerialversionuid() {
