@@ -92,7 +92,12 @@ public final class UtilDateTime {
 	}
 
 	
-	
+	public static final boolean isDefaultDate(final Date dateValue) {
+		return dateValue.equals(DEFAULT_VALUE_DATE);
+	}
+	public static final boolean isDefaultLocalTime(final LocalTime localTime) {
+		return localTime.equals(DEFAULT_VALUE_LOCALTIME);
+	}
 	
 
 
