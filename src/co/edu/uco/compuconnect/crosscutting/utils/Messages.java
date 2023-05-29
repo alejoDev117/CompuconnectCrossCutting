@@ -597,7 +597,12 @@ public final class Messages {
 		public static final String UPDATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo update de la clase CentroInformaticaPostgresqlDAO.Por favor verifique la traza completa del error...";
 		public static final String UPDATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de actualizar la informacion de un centro informatica...";
 		public static final String UPDATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo update de la clase CentroInformaticaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String READ_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo read de la clase CentroInformaticaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String READ_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de listar la informacion de un centro informatica...";
+		public static final String READ_SQL_EXCEPTION_TECHNICAL_MESSAGE ="Se ha presentado un problema no conocido en el metodo read de la clase CentroInformaticaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String READ_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de leer la informacion de un centro informatica...";
 	}
+	
 	
 	public static final class DetalleReservaPostgresqlDAOMessage{
 		private DetalleReservaPostgresqlDAOMessage(){
