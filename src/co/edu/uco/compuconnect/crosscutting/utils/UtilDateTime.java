@@ -4,7 +4,10 @@ import java.text.DateFormat;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import java.util.UUID;
@@ -43,8 +46,10 @@ public final class UtilDateTime {
         return localTime;
 	}
 	
-
-
+	public static final LocalTime toLocalTimeFromDate(final Date dateValue) {
+		return UtilObject.isNull(dateValue) ? DEFAULT_VALUE_LOCALTIME : dateValue.toInstant().atZone(ZoneId.systemDefault()).toLocalTime();
+	}
+	
 
 
 	public static final String getDefaultValueDateAsString() {
@@ -104,10 +109,5 @@ public final class UtilDateTime {
 	public static final LocalTime getDefaultValueLocaltime() {
 		return DEFAULT_VALUE_LOCALTIME;
 	}
-
-	
-	
-	
-	
 	
 }

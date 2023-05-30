@@ -578,6 +578,18 @@ public final class Messages {
 		public static final String UPDATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo update de la clase AgendaReservaPostgresqlDAO.Por favor verifique la traza completa del error...";
 		public static final String UPDATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de actualizar la informacion de una agenda reserva...";
 		public static final String UPDATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo update de la clase AgendaReservaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar la informacion de las reservas en agendas disponibles...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo setParameters de la clase AgendaReservaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String SET_PARAMETERS_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar la informacion de las reservas en agendas disponibles...";
+		public static final String SET_PARAMETERS_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo setParameters de la clase AgendaReservaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar la informacion de las reservas en agendas disponibles...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo excecuteQuery de la clase AgendaReservaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar la informacion de las reservas en agendas disponibles...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo excecuteQuery de la clase AgendaReservaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar la informacion de las reservas en agendas disponibles...";
+		public static final String READ_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo read de la clase AgendaReservaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar la informacion de las reservas en agendas disponibles...";
+		public static final String READ_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo read de la clase AgendaReservaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
 	}
 	
 	public static final class CentroInformaticaPostgresqlDAOMessage{
@@ -595,11 +607,19 @@ public final class Messages {
 		public static final String UPDATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de actualizar la informacion de un centro informatica...";
 		public static final String UPDATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo update de la clase CentroInformaticaPostgresqlDAO.Por favor verifique la traza completa del error...";
 		public static final String UPDATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de actualizar la informacion de un centro informatica...";
-		public static final String UPDATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo update de la clase CentroInformaticaPostgresqlDAO.Por favor verifique la traza completa del error...";
-		public static final String READ_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo read de la clase CentroInformaticaPostgresqlDAO.Por favor verifique la traza completa del error...";
-		public static final String READ_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de listar la informacion de un centro informatica...";
-		public static final String READ_SQL_EXCEPTION_TECHNICAL_MESSAGE ="Se ha presentado un problema no conocido en el metodo read de la clase CentroInformaticaPostgresqlDAO.Por favor verifique la traza completa del error...";
-		public static final String READ_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de leer la informacion de un centro informatica...";
+		public static final String UPDATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema inesperado  en el metodo update de la clase CentroInformaticaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar la informacion de los centros informatica disponibles...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo setParameters de la clase CentroInformaticaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String SET_PARAMETERS_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar la informacion de los centros informatica disponibles...";
+		public static final String SET_PARAMETERS_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo setParameters de la clase CentroInformaticaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar la informacion de los centros informatica disponibles...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo excecuteQuery de la clase CentroInformaticaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar la informacion de los centros informatica disponibles...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo excecuteQuery de la clase CentroInformaticaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar la informacion de los centros informatica disponibles...";
+		public static final String READ_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo read de la clase CentroInformaticaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar la informacion de los centros informatica disponibles...";
+		public static final String READ_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo read de la clase CentroInformaticaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
 	}
 	
 	
@@ -619,6 +639,18 @@ public final class Messages {
 		public static final String UPDATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo update de la clase DetalleReservaPostgresqlDAO.Por favor verifique la traza completa del error...";
 		public static final String UPDATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de actualizar la informacion de un detalle reserva...";
 		public static final String UPDATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo update de la clase DetalleReservaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar la informacion del detalle de una reserva...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo setParameters de la clase DetalleReservaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String SET_PARAMETERS_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar la informacion del detalle de una reserva...";
+		public static final String SET_PARAMETERS_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo setParameters de la clase DetalleReservaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar la informacion del detalle de una reserva...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo excecuteQuery de la clase DetalleReservaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar la informacion del detalle de una reserva...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo excecuteQuery de la clase DetalleReservaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar la informacion del detalle de una reserva...";
+		public static final String READ_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo read de la clase DetalleReservaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar la informacion del detalle de una reserva...";
+		public static final String READ_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo read de la clase DetalleReservaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
 	}
 	
 	public static final class DiaSemanalPostgresqlDAOMessage{
@@ -629,6 +661,18 @@ public final class Messages {
 		public static final String CREATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo create de la clase DiaSemanalPostgresqlDAO.Por favor verifique la traza completa del error...";
 		public static final String CREATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de registrar la informacion del dia semanal...";
 		public static final String CREATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo create de la clase DiaSemanalPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar los dias de la semana...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo setParameters de la clase DiaSemanalPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String SET_PARAMETERS_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar los dias de la semana...";
+		public static final String SET_PARAMETERS_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo setParameters de la clase DiaSemanalPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar los dias de la semana...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo excecuteQuery de la clase DiaSemanalPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar los dias de la semana...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo excecuteQuery de la clase DiaSemanalPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar los dias de la semana...";
+		public static final String READ_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo read de la clase DiaSemanalPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar los dias de la semana...";
+		public static final String READ_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo read de la clase DiaSemanalPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
 	}
 	
 	public static final class EstadoPeriodoFuncionamientoPostgresqlDAOMessage{
@@ -639,11 +683,26 @@ public final class Messages {
 		public static final String CREATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo create de la clase EstadoPeriodoFuncionamientoPostgresqlDAO.Por favor verifique la traza completa del error...";
 		public static final String CREATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de registrar la informacion del nuevo estado periodo funcionamiento...";
 		public static final String CREATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo create de la clase EstadoPeriodoFuncionamientoPostgresqlDAO.Por favor verifique la traza completa del error...";
+<<<<<<< Updated upstream
 		public static final String READ_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo read de la clase EstadoPeriodoFuncionamientoPostgresqlDAO.Por favor verifique la traza completa del error...";
 		public static final String READ_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de listar la informacion de un estado periodo funcionamiento...";
 		public static final String READ_SQL_EXCEPTION_TECHNICAL_MESSAGE ="Se ha presentado un problema no conocido en el metodo read de la clase EstadoPeriodoFuncionamientoPostgresqlDAO.Por favor verifique la traza completa del error...";
 		public static final String READ_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de leer la informacion de un estado periodo funcionamiento...";
 	
+=======
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar los estados de periodo de funcionamiento disponibles...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo setParameters de la clase EstadoPeriodoFuncionamientoPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String SET_PARAMETERS_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar los estados de periodo de funcionamiento disponibles...";
+		public static final String SET_PARAMETERS_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo setParameters de la clase EstadoPeriodoFuncionamientoPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar los estados de periodo de funcionamiento disponibles...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo excecuteQuery de la clase EstadoPeriodoFuncionamientoPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar los estados de periodo de funcionamiento disponibles...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo excecuteQuery de la clase EstadoPeriodoFuncionamientoPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar los estados de periodo de funcionamiento disponibles...";
+		public static final String READ_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo read de la clase EstadoPeriodoFuncionamientoPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar los estados de periodo de funcionamiento disponibles...";
+		public static final String READ_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo read de la clase EstadoPeriodoFuncionamientoPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+>>>>>>> Stashed changes
 	}
 	
 	public static final class FrecuenciaPostgresqlDAOMessage{
@@ -654,6 +713,19 @@ public final class Messages {
 		public static final String CREATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo create de la clase FrecuenciaPostgresqlDAO.Por favor verifique la traza completa del error...";
 		public static final String CREATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de registrar la informacion de la nueva frecuencia...";
 		public static final String CREATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo create de la clase FrecuenciaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar los tipos de frecuencia disponibles...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo setParameters de la clase FrecuenciaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String SET_PARAMETERS_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar los tipos de frecuencia disponibles...";
+		public static final String SET_PARAMETERS_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo setParameters de la clase FrecuenciaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar los tipos de frecuencia disponibles...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo excecuteQuery de la clase FrecuenciaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar los tipos de frecuencia disponibles...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo excecuteQuery de la clase FrecuenciaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar los tipos de frecuencia disponibles...";
+		public static final String READ_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo read de la clase FrecuenciaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar los tipos de frecuencia disponibles...";
+		public static final String READ_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo read de la clase FrecuenciaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+	
 	}
 	
 	public static final class PeriodoFuncionamientoPostgresqlDAOMessage{
@@ -672,6 +744,18 @@ public final class Messages {
 		public static final String UPDATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo update de la clase PeriodoFuncionamientoPostgresqlDAO.Por favor verifique la traza completa del error...";
 		public static final String UPDATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de actualizar la informacion de un periodo funcionamiento...";
 		public static final String UPDATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo update de la clase PeriodoFuncionamientoPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar los periodos de funcionamiento disponibles...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo setParameters de la clase PeriodoFuncionamientoPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String SET_PARAMETERS_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar los periodos de funcionamiento disponibles...";
+		public static final String SET_PARAMETERS_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo setParameters de la clase PeriodoFuncionamientoPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar los periodos de funcionamiento disponibles...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo excecuteQuery de la clase PeriodoFuncionamientoPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar los periodos de funcionamiento disponibles...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo excecuteQuery de la clase PeriodoFuncionamientoPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar los periodos de funcionamiento disponibles...";
+		public static final String READ_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo read de la clase PeriodoFuncionamientoPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar los periodos de funcionamiento disponibles...";
+		public static final String READ_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo read de la clase PeriodoFuncionamientoPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
 	}
 	
 	public static final class ReservaPostgresqlDAOMessage{
@@ -690,6 +774,18 @@ public final class Messages {
 		public static final String UPDATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo update de la clase ReservaPostgresqlDAO.Por favor verifique la traza completa del error...";
 		public static final String UPDATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de actualizar la informacion de una reserva...";
 		public static final String UPDATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo update de la clase ReservaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar las reservas disponibles...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo setParameters de la clase ReservaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String SET_PARAMETERS_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar las reservas disponibles...";
+		public static final String SET_PARAMETERS_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo setParameters de la clase ReservaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar las reservas disponibles...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo excecuteQuery de la clase ReservaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar las reservas disponibles...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo excecuteQuery de la clase ReservaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar las reservas disponibles...";
+		public static final String READ_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo read de la clase ReservaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar las reservas disponibles...";
+		public static final String READ_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo read de la clase ReservaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
 	}
 	
 	public static final class TipoIdentificacionPostgresqlDAOMessage{
@@ -700,6 +796,18 @@ public final class Messages {
 		public static final String CREATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo create de la clase TipoIdentificacionPostgresqlDAO.Por favor verifique la traza completa del error...";
 		public static final String CREATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de registrar la informacion  del nuevo tipo identificacion...";
 		public static final String CREATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo create de la clase TipoIdentificacionPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar los tipos de indentificacion disponibles...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo setParameters de la clase TipoIdentificacionPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String SET_PARAMETERS_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar los tipos de indentificacion disponibles...";
+		public static final String SET_PARAMETERS_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo setParameters de la clase TipoIdentificacionPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar los tipos de indentificacion disponibles...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo excecuteQuery de la clase TipoIdentificacionPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de los tipos de indentificacion disponibles...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo excecuteQuery de la clase TipoIdentificacionPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar los tipos de indentificacion disponibles...";
+		public static final String READ_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo read de la clase TipoIdentificacionPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar los tipos de indentificacion disponibles...";
+		public static final String READ_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo read de la clase TipoIdentificacionPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
 	}
 	
 	public static final class TipoNotificacionPostgresqlDAOMessage{
@@ -720,6 +828,18 @@ public final class Messages {
 		public static final String CREATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo create de la clase TipoReservaPostgresqlDAO.Por favor verifique la traza completa del error...";
 		public static final String CREATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de registrar la informacion  del nuevo tipo reserva...";
 		public static final String CREATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo create de la clase TipoReservaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar los tipos de reserva disponibles...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo setParameters de la clase TipoReservaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String SET_PARAMETERS_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar los tipos de reserva disponibles...";
+		public static final String SET_PARAMETERS_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo setParameters de la clase TipoReservaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar los tipos de reserva disponibles...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo excecuteQuery de la clase TipoReservaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de los tipos de reserva disponibles...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo excecuteQuery de la clase TipoReservaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar los tipos de reserva disponibles...";
+		public static final String READ_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo read de la clase TipoReservaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar los tipos de reserva disponibles...";
+		public static final String READ_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo read de la clase TipoReservaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
 	}
 	
 	public static final class TipoUsuarioPostgresqlDAOMessage{
@@ -730,6 +850,18 @@ public final class Messages {
 		public static final String CREATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo create de la clase TipoUsuarioPostgresqlDAO.Por favor verifique la traza completa del error...";
 		public static final String CREATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de registrar la informacion  del nuevo tipo usuario...";
 		public static final String CREATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo create de la clase TipoUsuarioPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar los tipos de usuario disponibles...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo setParameters de la clase TipoUsuarioPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String SET_PARAMETERS_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar los tipos de usuario disponibles...";
+		public static final String SET_PARAMETERS_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo setParameters de la clase TipoUsuarioPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar los tipos de usuario disponibles...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo excecuteQuery de la clase TipoUsuarioPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de los tipos de usuario disponibles...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo excecuteQuery de la clase TipoUsuarioPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar los tipos de usuario disponibles...";
+		public static final String READ_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo read de la clase TipoUsuarioPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar los tipos de usuario disponibles...";
+		public static final String READ_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo read de la clase TipoUsuarioPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
 	}
 	
 	public static final class UsuarioPostgresqlDAOMessage{
@@ -748,6 +880,18 @@ public final class Messages {
 		public static final String UPDATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo update de la clase UsuarioPostgresqlDAO.Por favor verifique la traza completa del error...";
 		public static final String UPDATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de actualizar la informacion de un usuario...";
 		public static final String UPDATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo update de la clase UsuarioPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar los usuario disponibles...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo setParameters de la clase UsuarioPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String SET_PARAMETERS_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar los usuario disponibles...";
+		public static final String SET_PARAMETERS_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo setParameters de la clase UsuarioPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar los  usuario disponibles...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo excecuteQuery de la clase UsuarioPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de los usuario disponibles...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo excecuteQuery de la clase UsuarioPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar los  usuario disponibles...";
+		public static final String READ_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo read de la clase UsuarioPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar los  usuario disponibles...";
+		public static final String READ_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo read de la clase UsuarioPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
 	}
 	
 	public static final class BuzonSolicitudPostgresqlDAOMessage{
