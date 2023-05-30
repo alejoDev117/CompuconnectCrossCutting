@@ -560,7 +560,18 @@ public final class Messages {
 		public static final String UPDATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo update de la clase AgendaPostgresqlDAO.Por favor verifique la traza completa del error...";
 		public static final String UPDATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de actualizar la informacion de una agenda...";
 		public static final String UPDATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo update de la clase AgendaPostgresqlDAO.Por favor verifique la traza completa del error...";
-		
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar la informacion de las agendas disponibles...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo setParameters de la clase AgendaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String SET_PARAMETERS_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar la informacion de las agendas disponibles...";
+		public static final String SET_PARAMETERS_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo setParameters de la clase AgendaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar la informacion de las agendas disponibles...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo excecuteQuery de la clase AgendaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar la informacion de las agendas disponibles...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo excecuteQuery de la clase AgendaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar la informacion de las agendas disponibles...";
+		public static final String READ_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo read de la clase AgendaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar la informacion de las agendas disponibles...";
+		public static final String READ_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo read de la clase AgendaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
 	}
 	
 	public static final class AgendaReservaPostgresqlDAOMessage{
