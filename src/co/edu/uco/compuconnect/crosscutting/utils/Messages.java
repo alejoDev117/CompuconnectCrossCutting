@@ -827,6 +827,246 @@ public final class Messages {
 		public static final String DELETE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo delete de la clase DestinatarioNotificacionPostgresqlDAO.Por favor verifique la traza completa del error...";
 	
 	}
+	public static final class DestinatarioPostgresqlDAOMessage{
+		private DestinatarioPostgresqlDAOMessage() {
+			
+		}
+		public static final String CREATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de registrar la informacion del nuevo destinatario...";
+		public static final String CREATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo create de la clase DestinatarioPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String CREATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de registrar la informacion del nuevo destinatario...";
+		public static final String CREATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo create de la clase DestinatarioPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar la informacion del destinatario...";
+		public static final String DELETE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo delete de la clase DestinatarioPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de eliminar la informacion del destinatario...";
+		public static final String DELETE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo delete de la clase DestinatarioPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String UPDATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de actualizar la informacion de un destinatario...";
+		public static final String UPDATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo update de la clase DestinatarioPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String UPDATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de actualizar la informacion de un destinatario...";
+		public static final String UPDATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo update de la clase DestinatarioPostgresqlDAO.Por favor verifique la traza completa del error...";
+		
+	}
+	public static final class EquipoComputoPostgresqlDAOMessage{
+		private EquipoComputoPostgresqlDAOMessage() {
+			
+		}
+		public static final String CREATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de registrar la informacion del nuevo equipo de computo...";
+		public static final String CREATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo create de la clase EquipoComputoPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String CREATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de registrar la informacion del nuevo equipo de Computo...";
+		public static final String CREATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo create de la clase EquipoComputoPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar la informacion del equipo de computo...";
+		public static final String DELETE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo delete de la clase EquipoComputoPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de eliminar la informacion del equipo de computo...";
+		public static final String DELETE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo delete de la clase EquipoComputoPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String UPDATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de actualizar la informacion de un equipo de computo...";
+		public static final String UPDATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo update de la clase EquipoComputoPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String UPDATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de actualizar la informacion de un equipo de computo...";
+		public static final String UPDATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo update de la clase EquipoComputoPostgresqlDAO.Por favor verifique la traza completa del error...";
+		
+	}
+	
+	public static final class EstadoEquipoComputoPostgresqlDAOMessage{
+		private EstadoEquipoComputoPostgresqlDAOMessage() {
+			
+		}
+	public static final String CREATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de registrar la informacion del nuevo estado equipo computo...";
+	public static final String CREATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo create de la clase EstadoEquipoComputoPostgresqlDAO.Por favor verifique la traza completa del error...";
+	public static final String CREATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de registrar la informacion del nuevo estado equipo computo...";
+	public static final String CREATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo create de la clase EstadoEquipoComputoPostgresqlDAO.Por favor verifique la traza completa del error...";
+		
+	}
+	public static final class EstadoNotificacionPostgresqlDAOMessage{
+		private EstadoNotificacionPostgresqlDAOMessage() {
+			
+		}
+	public static final String CREATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de registrar la informacion del nuevo estado notificacion...";
+	public static final String CREATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo create de la clase EstadoNotificacionPostgresqlDAO.Por favor verifique la traza completa del error...";
+	public static final String CREATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de registrar la informacion del nuevo estado notificacion...";
+	public static final String CREATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo create de la clase EstadoNotificacionPostgresqlDAO.Por favor verifique la traza completa del error...";
+		
+	}
+	public static final class EstadoSolicitudPostgresqlDAOMessage{
+		private EstadoSolicitudPostgresqlDAOMessage() {
+			
+		}
+	public static final String CREATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de registrar la informacion del nuevo estado solicitud...";
+	public static final String CREATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo create de la clase EstadoSolicitudPostgresqlDAO.Por favor verifique la traza completa del error...";
+	public static final String CREATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de registrar la informacion del nuevo estado solicitud...";
+	public static final String CREATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo create de la clase EstadoSolicitudPostgresqlDAO.Por favor verifique la traza completa del error...";
+		
+	}
+	public static final class ExcepcionAgendaPostgresqlDAOMessage{
+		private ExcepcionAgendaPostgresqlDAOMessage() {
+			
+		}
+		public static final String CREATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de registrar la informacion del excepcion agenda...";
+		public static final String CREATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo create de la clase ExcepcionAgendaPostresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String CREATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de registrar la informacion de la nueva excepcion agenda...";
+		public static final String CREATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo create de la clase ExcepcionAgendaPostresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar la informacion de excepcion agenda...";
+		public static final String DELETE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo delete de la clase ExcepcionAgendaPostresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de eliminar la informacion de excepcion agenda...";
+		public static final String DELETE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo delete de la clase ExcepcionAgendaPostresqlDAO.Por favor verifique la traza completa del error...";
+
+	}
+	public static final class ExcepcionPostgresqlDAOMessage{
+		private ExcepcionPostgresqlDAOMessage() {
+			
+		}
+		public static final String CREATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de registrar la informacion de la nueva excepcion...";
+		public static final String CREATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo create de la clase ExcepcionPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String CREATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de registrar la informacion de la nueva excpecion...";
+		public static final String CREATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo create de la clase ExcepcionPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar la informacion de la excepcion...";
+		public static final String DELETE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo delete de la clase ExcepcionPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de eliminar la informacion de la excepcion...";
+		public static final String DELETE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo delete de la clase ExcepcionPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String UPDATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de actualizar la informacion de una excepcion...";
+		public static final String UPDATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo update de la clase ExcepcionPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String UPDATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de actualizar la informacion de una excepcion..";
+		public static final String UPDATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo update de la clase ExcepcionPostgresqlDAO.Por favor verifique la traza completa del error...";
+		
+	}
+	public static final class HorarioPersonaEncargadaPostgresqlDAOMessage{
+		private HorarioPersonaEncargadaPostgresqlDAOMessage() {
+			
+		}
+		public static final String CREATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de registrar la informacion del nuevo horario persona encargada...";
+		public static final String CREATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo create de la clase HorarioPersonaEncargadaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String CREATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de registrar la informacion del horario persona encargada...";
+		public static final String CREATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo create de la clase HorarioPersonaEncargadaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar la informacion del horario persona encargada...";
+		public static final String DELETE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo delete de la clase HorarioPersonaEncargadaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de eliminar la informacion del horario persona encargada...";
+		public static final String DELETE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo delete de la clase HorarioPersonaEncargadaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String UPDATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de actualizar la informacion de un horario persona encargada..";
+		public static final String UPDATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo update de la clase HorarioPersonaEncargadaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String UPDATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de actualizar la informacion de un horario persona encargada...";
+		public static final String UPDATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo update de la clase HorarioPersonaEncargadaPostgresqlDAO.Por favor verifique la traza completa del error...";
+	}
+	public static final class MonitorPostgresqlDAOMessage{
+		private MonitorPostgresqlDAOMessage() {
+			
+		}
+		public static final String CREATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de registrar la informacion del nuevo Monitor...";
+		public static final String CREATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo create de la clase MonitorPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String CREATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de registrar la informacion del nuevo monitor...";
+		public static final String CREATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo create de la clase MonitorPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar la informacion del monitor...";
+		public static final String DELETE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo delete de la clase MonitorPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de eliminar la informacion del monitor...";
+		public static final String DELETE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo delete de la clase MonitorPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String UPDATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de actualizar la informacion de un monitor...";
+		public static final String UPDATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo update de la clase MonitorPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String UPDATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de actualizar la informacion de un monitor...";
+		public static final String UPDATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo update de la clase MonitorPostgresqlDAO.Por favor verifique la traza completa del error...";
+	}
+	
+	public static final class NotificacionPostgresqlDAOMessage{
+		private NotificacionPostgresqlDAOMessage() {
+			
+		}
+		public static final String CREATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de registrar la informacion de la nueva notificacion...";
+		public static final String CREATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo create de la clase NotificacionPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String CREATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de registrar la informacion de la nueva notificacion..";
+		public static final String CREATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo create de la clase NotificacionPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar la informacion de una notificacion...";
+		public static final String DELETE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo delete de la clase NotificacionPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de eliminar la informacion de una notificacion...";
+		public static final String DELETE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo delete de la clase NotificacionPostgresqlDAO.Por favor verifique la traza completa del error...";
+
+	}
+	public static final class PerfilPostgresqlDAOMessage{
+		private PerfilPostgresqlDAOMessage() {
+			
+		}
+		public static final String CREATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de registrar la informacion del perfil...";
+		public static final String CREATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo create de la clase PerfilPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String CREATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de registrar la informacion del nuevo perfil...";
+		public static final String CREATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo create de la clase PerfilPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar la informacion del perfil...";
+		public static final String DELETE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo delete de la clase PerfilPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de eliminar la informacion del perfil...";
+		public static final String DELETE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo delete de la clase PerfilPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String UPDATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de actualizar la informacion de un perfil...";
+		public static final String UPDATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo update de la clase PerfilPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String UPDATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de actualizar la informacion de un perfil...";
+		public static final String UPDATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo update de la clase PerfilPostgresqlDAO.Por favor verifique la traza completa del error...";
+	}
+	public static final class PeriodoFuncionamientoDiaFestivoPostgresqlDAOMessage{
+		private PeriodoFuncionamientoDiaFestivoPostgresqlDAOMessage() {
+			
+		}
+		public static final String CREATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de registrar la informacion del dia festivo a un periodo funcionamiento...";
+		public static final String CREATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo create de la clase PeriodoFuncionamientoDiaFestivoPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String CREATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de registrar la informacion del dia festivo a un periodo funcionamiento...";
+		public static final String CREATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo create de la clase PeriodoFuncionamientoDiaFestivoPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar la informacion de un dia festivo en un periodo funcionamiento...";
+		public static final String DELETE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo delete de la clase PeriodoFuncionamientoDiaFestivoPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de eliminar la informacion de un dia festivo en un periodo funcionamiento...";
+		public static final String DELETE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo delete de la clase PeriodoFuncionamientoDiaFestivoPostgresqlDAO.Por favor verifique la traza completa del error...";
+	}
+	
+	public static final class PersonaEncargadaPostgresqlDAOMessage{
+		private PersonaEncargadaPostgresqlDAOMessage() {
+			
+		}
+		public static final String CREATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de registrar la nueva Persona Encargada...";
+		public static final String CREATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo create de la clase PersonaEncargadaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String CREATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de registrar la informacion de la persona encargada...";
+		public static final String CREATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo create de la clase PersonaEncargadaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar la informacion de la persona encargada...";
+		public static final String DELETE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo delete de la clase PersonaEncargadaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de eliminar la informacion de la persona encargada...";
+		public static final String DELETE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo delete de la clase PersonaEncargadaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String UPDATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de actualizar la informacion de una persona encargada ...";
+		public static final String UPDATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo update de la clase PersonaEncargadaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String UPDATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de actualizar la informacion de una persona encargada...";
+		public static final String UPDATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo update de la clase PersonaEncargadaPostgresqlDAO.Por favor verifique la traza completa del error...";
+	
+	}
+	public static final class ReservaPerfilPostgresqlDAOMessage{
+		private ReservaPerfilPostgresqlDAOMessage() {
+			
+		}
+		public static final String CREATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de registrar la informacion de una reserva en un perfil...";
+		public static final String CREATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo create de la clase ReservaPerfilPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String CREATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de registrar la informacion de una reserva en un perfil...";
+		public static final String CREATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo create de la clase ReservaPerfilPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar la informacion de una reserva en un perfil...";
+		public static final String DELETE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo delete de la clase ReservaPerfilPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de eliminar la informacion de una reserva en un perfil...";
+		public static final String DELETE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo delete de la clase ReservaPerfilPostgresqlDAO.Por favor verifique la traza completa del error...";
+	}
+	public static final class RespuestaPostgresqlDAOMessage{
+		private RespuestaPostgresqlDAOMessage() {
+			
+		}
+		public static final String CREATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de registrar la informacion de una nueva respuesta...";
+		public static final String CREATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo create de la clase RespuestaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String CREATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de registrar la informacion de una nueva respuesta...";
+		public static final String CREATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo create de la clase RespuestaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar la informacion de una respuesta ...";
+		public static final String DELETE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo delete de la clase RespuestaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de eliminar la informacion de una respuesta...";
+		public static final String DELETE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo delete de la clase RespuestaPostgresqlDAO.Por favor verifique la traza completa del error...";
+	}
+	public static final class TiempoFuncionamientoCentroInformaticaPostgresqlDAOMessage{
+		private TiempoFuncionamientoCentroInformaticaPostgresqlDAOMessage() {
+			
+		}
+		public static final String CREATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de registrar el nuevo tiempo funcionamiento del centro informatica ...";
+		public static final String CREATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo create de la clase TiempoFuncionamientoCentroInformaticaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String CREATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de registrar el nuevo tiempo funcionamiento de un centro informatica...";
+		public static final String CREATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo create de la clase TiempoFuncionamientoCentroInformaticaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar la informacion de un tiempo de funcionamiento de un centro de informatica ...";
+		public static final String DELETE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo delete de la clase TiempoFuncionamientoCentroInformaticaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de eliminar la informacion de un tiempo de funcionamiento centro de informatica ...";
+		public static final String DELETE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo delete de la clase TiempoFuncionamientoCentroInformaticaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String UPDATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de actualizar la informacion de un tiempo de funcionamiento centro de informatica ...";
+		public static final String UPDATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo update de la clase TiempoFuncionamientoCentroInformaticaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String UPDATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de actualizar la informacion de un tiempo de funcionamiento centro de informatica...";
+		public static final String UPDATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo update de la clase TiempoFuncionamientoCentroInformaticaPostgresqlDAO.Por favor verifique la traza completa del error...";
+	}
 }
 
 
