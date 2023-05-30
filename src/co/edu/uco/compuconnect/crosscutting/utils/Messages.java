@@ -78,7 +78,6 @@ public final class Messages {
 		public static final String CONSULTAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de consultar los estados de Periodo funcionamiento. Por favor intente nuevamente y si persiste comuniquese con el adminsitrador de sistema...";
 		public static final String CONSULTAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida al momento de listar EstadosPeriodoFuncionamientoDTO.Por favor valide la traza completa de la excepcion presentada...";
 		
-		
 	}
 	
 	public static final class EstadoEquipoComputoFacadeImpMessage{
@@ -640,6 +639,11 @@ public final class Messages {
 		public static final String CREATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo create de la clase EstadoPeriodoFuncionamientoPostgresqlDAO.Por favor verifique la traza completa del error...";
 		public static final String CREATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de registrar la informacion del nuevo estado periodo funcionamiento...";
 		public static final String CREATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo create de la clase EstadoPeriodoFuncionamientoPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String READ_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo read de la clase EstadoPeriodoFuncionamientoPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String READ_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de listar la informacion de un estado periodo funcionamiento...";
+		public static final String READ_SQL_EXCEPTION_TECHNICAL_MESSAGE ="Se ha presentado un problema no conocido en el metodo read de la clase EstadoPeriodoFuncionamientoPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String READ_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de leer la informacion de un estado periodo funcionamiento...";
+	
 	}
 	
 	public static final class FrecuenciaPostgresqlDAOMessage{
