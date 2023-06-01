@@ -49,6 +49,15 @@ public final class UtilDateTime {
 	}
 	
 
+	public static final boolean dateIsBefore(final Date fechaInicio, final Date fechaFin) {
+		return getDefaultDate(fechaInicio).before(getDefaultDate(fechaFin));
+		}
+	public static final boolean dateIsEquals(final Date fechaInicio, final Date fechaFin) {
+		return getDefaultDate(fechaInicio).equals(getDefaultDate(fechaFin));
+		}
+	public static final boolean dateIsAfter(final Date fechaInicio, final Date fechaFin) {
+		return getDefaultDate(fechaInicio).after(getDefaultDate(fechaFin));
+		}
 
 	public static final String getDefaultValueDateAsString() {
 		return DEFAULT_VALUE_DATE_AS_STRING;
@@ -107,5 +116,4 @@ public final class UtilDateTime {
 	public static final LocalTime getDefaultValueLocaltime() {
 		return DEFAULT_VALUE_LOCALTIME;
 	}
-	
 }

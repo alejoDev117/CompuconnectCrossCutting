@@ -1221,6 +1221,23 @@ public final class Messages {
 			
 		}
 		public static final String BUSINESS_RULE_AGENDA_ALREADY_EXIST ="se ha presentado un problema al intentar crear la agenda, debido que ya existe una asignada al centro informatica y periodo de funcionamiento vigente. Por favor valide los datos de ingreso...";
+		public static final String BUSINESS_RULE_AGENDA_ID_NOT_FOUND ="se ha presentado un problema, el identificador de la agenda suministrado no se encuentra como un registro previo. Por favor valide los datos nuevamente...";
+		public static final String BUSINESS_RULE_AGENDA_ELIMINAR_EXCEPTION ="se ha presentado un problema, no es posible eliminar una agenda que aun posee reservas activas. Por favor valide los datos nuevamente...";
+	}
+	
+	public static final class PeriodoFuncionamientoBusinessImpMessage{
+		private PeriodoFuncionamientoBusinessImpMessage() {
+			
+		}
+		public static final String BUSINESS_RULE_PERIODO_FUNCIONAMIENTO_DATE_RANGE_INVALID = "Se ha presentado un problema tratando de registrar un nuevo periodo funcionamiento, debido a que la fecha inicio y fecha fin tienen un formato no valido...";
+		public static final String BUSINESS_RULE_PERIODO_FUNCIONAMIENTO_ID_NOT_FOUND = "Se ha presentado un problema tratando de encontrar el identificador del periodo de funcionamiento. Por favor valide los datos...";
+		public static final String BUSINESS_RULE_PERIODO_FUNCIONAMIENTO_MODIFY_INVALID= "No es posible modificar un periodo funicionamiento que se encuentra activo en este momento...";
+	}
+	public static final class CentroInformaticaBusinessImpMessage{
+		private CentroInformaticaBusinessImpMessage() {
+			
+		}
+		public static final String BUSINESS_RULE_CENTRO_INFORMATICA_ID_NOT_FOUND = "Se ha presentado un problema tratando de encontrar el identificador del Centro informatica.Por favor valide los datos... ";
 	}
 }
 
