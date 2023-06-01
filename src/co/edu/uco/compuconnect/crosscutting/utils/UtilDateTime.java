@@ -2,15 +2,13 @@ package co.edu.uco.compuconnect.crosscutting.utils;
 
 import java.text.DateFormat;
 
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
-import java.util.UUID;
 
 public final class UtilDateTime {
 	
@@ -42,8 +40,8 @@ public final class UtilDateTime {
 	
 	public static final LocalTime fromStringToLocalTime(final String localDateValue) {
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern(FORMAT_VALUE_LOCALTIME);
-        LocalTime localTime = LocalTime.parse(UtilText.getUtilText().getDefault(localDateValue, DEFAULT_VALUE_LOCALTIME_AS_STRING), formatter);
-        return localTime;
+        return LocalTime.parse(UtilText.getUtilText().getDefault(localDateValue, DEFAULT_VALUE_LOCALTIME_AS_STRING), formatter);
+        
 	}
 	
 	public static final LocalTime toLocalTimeFromDate(final Date dateValue) {

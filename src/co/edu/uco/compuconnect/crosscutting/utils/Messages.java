@@ -1216,6 +1216,12 @@ public final class Messages {
 		public static final String UPDATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de actualizar la informacion de un tiempo de funcionamiento centro de informatica...";
 		public static final String UPDATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo update de la clase TiempoFuncionamientoCentroInformaticaPostgresqlDAO.Por favor verifique la traza completa del error...";
 	}
+	public static final class AgendaBusinessImpMessage{
+		private AgendaBusinessImpMessage() {
+			
+		}
+		public static final String BUSINESS_RULE_AGENDA_ALREADY_EXIST ="se ha presentado un problema al intentar crear la agenda, debido que ya existe una asignada al centro informatica y periodo de funcionamiento vigente. Por favor valide los datos de ingreso...";
+	}
 }
 
 

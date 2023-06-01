@@ -2,8 +2,6 @@ package co.edu.uco.compuconnect.crosscutting.utils;
 
 import java.util.UUID;
 
-import co.edu.uco.compuconnect.crosscutting.utils.UtilText;
-import co.edu.uco.compuconnect.crosscutting.utils.UtilObject;
 
 public final class UtilUUID {
 	
