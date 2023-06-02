@@ -5,6 +5,10 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>CompuconnectCrossCutting</name>
   <description>Componente encargado de gestionar las clases que contienen las funcionalidades que pueden ser accedidas por dto, entities, business y data.</description>
+  <properties>
+  	<sonar.organization>alejodev117</sonar.organization>
+  	<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  </properties>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
