@@ -1257,6 +1257,16 @@ public final class Messages {
 		public static final String BUSINESS_RULE_CENTRO_INFORMATICA_ID_NOT_FOUND = "Se ha presentado un problema tratando de encontrar el identificador de la reserva.Por favor valide los datos... ";
 		
 	}
+	public static final class ReservaControllerMessage{
+		public static final String CONTROLLER_READ_SUCCESSFUL = "Reservas consultadas correctamente...";
+		public static final String CONTROLLER_CREATE_SUCCESSFUL = "Reservas generadas correctamente...";
+		public static final String CONTROLLER_CANCEL_SUCCESSFUL = "La reserva se ha cancelado correctamente...";
+		public static final String CONTROLLER_UPDATE_SUCCESSFUL = "La reserva se ha actualizado correctamente...";
+		public static final String CONSOLE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema inesperado. Por favor, intenta de nuevo y si el problema persiste, contacta al administrador de la aplicación...";
+		public static final String CONSOLE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado. Por favor validar la consola de errores...";
+
+		
+	}
 }
 
 
