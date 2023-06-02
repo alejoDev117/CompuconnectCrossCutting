@@ -1239,6 +1239,24 @@ public final class Messages {
 		}
 		public static final String BUSINESS_RULE_CENTRO_INFORMATICA_ID_NOT_FOUND = "Se ha presentado un problema tratando de encontrar el identificador del Centro informatica.Por favor valide los datos... ";
 	}
+	public static final class DetalleReservaBusinessImpMessage{
+		private DetalleReservaBusinessImpMessage() {
+			
+		}
+		public static final String BUSINESS_RULE_DETALLE_RESERVA_TIME_OUT_OF_RANGE = "Se ha presentado un problema tratando de crear los detalles de la reserva, debido a que la hora inicio y hora fin no cumplen con el formato de rango valido....";
+		public static final String BUSINESS_RULE_CENTRO_INFORMATICA_ID_NOT_FOUND = "Se ha presentado un problema tratando de encontrar el identificador del Detalle reserva.Por favor valide los datos... ";
+	}
+	public static final class ReservaBusinessImpMessage{
+		private ReservaBusinessImpMessage() {
+			
+		}
+		public static final String BUSINESS_RULE_RESERVA_DATE_RANGE_INVALID = "Se ha presentado un problema tratando de generar la reserva, debido a que la fecha inicio y fecha fin no cumplen con el formato valido....";
+		public static final String BUSINESS_RULE_RESERVA_DATE_AGENDA_DATE_RANGE = "Se ha presentado un problema tratando de generar la reserva, debido a que la fecha inicio o la fecha fin no se encuentran dentro del rango valido definido por la agenda....";
+		public static final String BUSINESS_RULE_RESERVA_TIPO_RESERVA_INVALID ="Se ha presentado un problema tratando de generar la reserva, debido a que el tipo de la reserva no puede estar vacio...";
+		public static final String BUSINESS_RULE_RESERVA_FRECUENCIA_INVALID ="Se ha presentado un problema tratando de generar la reserva, debido a que la frecuencia no puede estar vacio...";
+		public static final String BUSINESS_RULE_CENTRO_INFORMATICA_ID_NOT_FOUND = "Se ha presentado un problema tratando de encontrar el identificador de la reserva.Por favor valide los datos... ";
+		
+	}
 }
 
 
