@@ -1265,7 +1265,29 @@ public final class Messages {
 		public static final String CONSOLE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema inesperado. Por favor, intenta de nuevo y si el problema persiste, contacta al administrador de la aplicación...";
 		public static final String CONSOLE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado. Por favor validar la consola de errores...";
 
-		
+	}
+	public static final class AgendaControllerMessage{
+		public static final String CONTROLLER_READ_SUCCESSFUL = "Agenda consultadas correctamente...";
+		public static final String CONTROLLER_CREATE_SUCCESSFUL = "Agenda generadas correctamente...";
+		public static final String CONTROLLER_DELETE_SUCCESSFUL = "La Agenda se ha eliminado correctamente...";
+		public static final String CONTROLLER_UPDATE_SUCCESSFUL = "La Agenda se ha actualizado correctamente...";
+		public static final String CONSOLE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema inesperado. Por favor, intenta de nuevo y si el problema persiste, contacta al administrador de la aplicación...";
+		public static final String CONSOLE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado. Por favor validar la consola de errores...";
+	}
+	
+	public static final class AgendaReservaControllerMessage{
+		public static final String CONTROLLER_READ_SUCCESSFUL = "Agenda reserva consultadas correctamente...";
+		public static final String CONTROLLER_CREATE_SUCCESSFUL = "Agenda reserva generada correctamente...";
+		public static final String CONTROLLER_DELETE_SUCCESSFUL = "La Agenda reserva se ha eliminado correctamente...";
+		public static final String CONTROLLER_UPDATE_SUCCESSFUL = "La Agenda reserva se ha actualizado correctamente...";
+		public static final String CONSOLE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema inesperado. Por favor, intenta de nuevo y si el problema persiste, contacta al administrador de la aplicación...";
+		public static final String CONSOLE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado. Por favor validar la consola de errores...";
+	}
+	public static final class AgendaCommonValidation{
+		public static final String ACTUALIZAR_FAILED = "No es posible modificar la agenda con los datos vacíos";
+		public static final String CONSULTAR_FAILED = "No es posible consultar una agenda con los datos vacíos";
+		public static final String CREAR_FAILED = "No es posible generar una agenda con los datos vacíos";
+		public static final String ELIMINAR_FAILED = "No es posible eliminar la agenda con el identificador vacío";
 	}
 }
 
