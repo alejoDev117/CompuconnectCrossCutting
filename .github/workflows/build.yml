@@ -36,8 +36,8 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=alejoDev117_CompuconnectCrossCutting
-          mkdir staging && cp target/*.jar staging
+          mkdir staging && cp target/* staging
       - uses: actions/upload-artifact@v3
         with:
-          name: my-artifact
+          name: artifact
           path: staging
