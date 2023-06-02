@@ -34,8 +34,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=alejoDev117_CompuconnectCrossCutting
+        run: |
+          mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=alejoDev117_CompuconnectCrossCutting
+          mkdir staging && cp target/*.jar staging
       - uses: actions/upload-artifact@v3
         with:
           name: my-artifact
-          path: ~/.m2/co/edu/uco/compuconnect/CompuconnectCrossCutting/0.0.1-SNAPSHOT/
+          path: staging
