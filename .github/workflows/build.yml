@@ -39,5 +39,5 @@ jobs:
           mkdir staging && cp target/* staging
       - uses: actions/upload-artifact@v3
         with:
-          name: artifact
+          name: artifactzip
           path: staging
