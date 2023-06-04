@@ -1,5 +1,6 @@
 package co.edu.uco.compuconnect.crosscutting.utils;
 
+import java.sql.Time;
 import java.text.DateFormat;
 
 
@@ -46,6 +47,10 @@ public final class UtilDateTime {
 	
 	public static final LocalTime toLocalTimeFromDate(final Date dateValue) {
 		return UtilObject.isNull(dateValue) ? DEFAULT_VALUE_LOCALTIME : dateValue.toInstant().atZone(ZoneId.systemDefault()).toLocalTime();
+	}
+	
+	public static final LocalTime toLocalTimeFromTime(final Time timeValue) {
+	    return UtilObject.isNull(timeValue) ? DEFAULT_VALUE_LOCALTIME : timeValue.toLocalTime();
 	}
 	
 
