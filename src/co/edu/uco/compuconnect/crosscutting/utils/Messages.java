@@ -525,7 +525,7 @@ public final class Messages {
 			
 		}
 		public static final String IDENTIFICADOR_EMPTY_MESSAGE = "No es posible continuar con el identificador  vacio...";
-		public static final String IDENTIFICADOR_DEFAULT_MESSAGE = "No es posible tener el identificador por defecto...";
+		public static final String IDENTIFICADOR_DEFAULT_MESSAGE = "No es posible ingresar un identificador desde el front-end...";
 	}
 	
 	
@@ -1244,7 +1244,7 @@ public final class Messages {
 			
 		}
 		public static final String BUSINESS_RULE_DETALLE_RESERVA_TIME_OUT_OF_RANGE = "Se ha presentado un problema tratando de crear los detalles de la reserva, debido a que la hora inicio y hora fin no cumplen con el formato de rango valido....";
-		public static final String BUSINESS_RULE_CENTRO_INFORMATICA_ID_NOT_FOUND = "Se ha presentado un problema tratando de encontrar el identificador del Detalle reserva.Por favor valide los datos... ";
+		public static final String BUSINESS_RULE_DETALLE_RESERVA_ID_NOT_FOUND = "Se ha presentado un problema tratando de encontrar el identificador del Detalle reserva.Por favor valide los datos... ";
 	}
 	public static final class ReservaBusinessImpMessage{
 		private ReservaBusinessImpMessage() {
@@ -1254,7 +1254,13 @@ public final class Messages {
 		public static final String BUSINESS_RULE_RESERVA_DATE_AGENDA_DATE_RANGE = "Se ha presentado un problema tratando de generar la reserva, debido a que la fecha inicio o la fecha fin no se encuentran dentro del rango valido definido por la agenda....";
 		public static final String BUSINESS_RULE_RESERVA_TIPO_RESERVA_INVALID ="Se ha presentado un problema tratando de generar la reserva, debido a que el tipo de la reserva no puede estar vacio...";
 		public static final String BUSINESS_RULE_RESERVA_FRECUENCIA_INVALID ="Se ha presentado un problema tratando de generar la reserva, debido a que la frecuencia no puede estar vacio...";
-		public static final String BUSINESS_RULE_CENTRO_INFORMATICA_ID_NOT_FOUND = "Se ha presentado un problema tratando de encontrar el identificador de la reserva.Por favor valide los datos... ";
+		public static final String BUSINESS_RULE_RESERVA__ALREADY_EXIST= "No es posible generar la reserva, debido a que ya existe una reserva previamente registrada en la misma agenda y dentro del mismo rango de tiempo que desea agendar... ";
+		public static final String BUSINESS_RULE_RESERVA_ID_NOT_FOUND = "Se ha presentado un problema tratando de encontrar el identificador de la reserva.Por favor valide los datos... ";
+		public static final String BUSINESS_RULE_RESERVA_LIST_IS_EMPTY = "Se ha presentado un problema debido a que la reserva que intenta generar no posee ningun detalle reserva asociado, por favor intente nuevamente... ";
+		public static final String BUSINESS_RULE_RESERVA_AGENDA_ID_DEFAULT = "Se ha presentado un problema validando debido a que el identificador de la agenda o las fechas de su periodo funcionamiento estan por defecto en la reserva que desea generar, por favor intente nuevamente... ";
+		public static final String BUSINESS_RULE_RESERVA_AGENDA_VALIDATION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de validar algunos parametros de la reserva que desea crear, por favor intente nuevamente y si el problema persiste comuniquese con el administrador de sistema... ";
+		public static final String BUSINESS_RULE_RESERVA_AGENDA_VALIDATION_TECHNICAL_MESSAGE = "Se ha presentado un problema inesperado tratando de validar algunos parametros de la reserva que se desea generar, Por favor valide la traza completa de la excepcion presentada... ";
+		
 		
 	}
 	public static final class ReservaControllerMessage{
