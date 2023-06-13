@@ -131,6 +131,8 @@ public final class Messages {
 		public static final String ELIMINAR_EXCEPTION_TECHNICAL_MESSAGE ="Se ha presentado una excepcion no conocida intentando eliminar un SoftwareDTO. Por favor valide la traza de la excepcion presentada...";
 		public static final String CONSULTAR_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema intentando consultar los Software. Por favor intente de nuevo y si el problema persiste comuniquese con el administrador de sistema....";
 		public static final String CONSULTAR_EXCEPTION_TECHNICAL_MESSAGE ="Se ha presentado una excepcion no conocida intentnado listar SoftwareDTO. Por favor valide la traza de la excepcion presentanda...";
+		public static final String MODIFICAR_EXCEPTION_USER_MESSAGE= "Se ha presentado un problema intentando modificar los Software. Por favor intente de nuevo y si el problema persiste comuniquese con el administrador de sistema....";
+		public static final String MODIFICAR_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado una excepcion no conocida intentando modificar SoftwareDTO. Por favor valide la traza de la excepcion presentanda...";
 		
 		
 	}
@@ -634,6 +636,35 @@ public final class Messages {
 		public static final String READ_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo read de la clase CentroInformaticaPostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
 	}
 	
+	
+	public static final class SoftwarePostgresqlDAOMessage{
+		private SoftwarePostgresqlDAOMessage() {			
+		}
+		public static final String CREATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de registrar la informacion del nuevo software...";
+		public static final String CREATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo create de la clase SoftwarePostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String CREATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de registrar la informacion del nuevo software...";
+		public static final String CREATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo create de la clase CentroInformaticaPostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de eliminar la informacion de un centro informatica...";
+		public static final String DELETE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo delete de la clase SoftwarePostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String DELETE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de eliminar la informacion de un software...";
+		public static final String DELETE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema no conocido en el metodo delete de la clase SoftwarePostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String UPDATE_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema tratando de actualizar la informacion de un software...";
+		public static final String UPDATE_SQL_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema de tipo SqlException en el metodo update de la clase SoftwarePostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String UPDATE_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado tratando de actualizar la informacion de un software...";
+		public static final String UPDATE_EXCEPTION_TECHNICAL_MESSAGE = "Se ha presentado un problema inesperado  en el metodo update de la clase SoftwarePostgresqlDAO.Por favor verifique la traza completa del error...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar la informacion de los softwares disponibles...";
+		public static final String SET_PARAMETERS_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo setParameters de la clase SoftwarePostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String SET_PARAMETERS_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar la informacion de los software disponibles...";
+		public static final String SET_PARAMETERS_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo setParameters de la clase SoftwarePostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar la informacion de los softwares disponibles...";
+		public static final String EXCECUTE_QUERY_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo excecuteQuery de la clase SoftwarePostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar la informacion de los softwares disponibles...";
+		public static final String EXCECUTE_QUERY_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo excecuteQuery de la clase SofwarePostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_SQL_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema tratando de consultar la informacion de los software disponibles...";
+		public static final String READ_SQL_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema de tipo Sql en el metodo read de la clase SoftwarePostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+		public static final String READ_EXCEPTION_TECHNICAL_MESSAGE = "se ha presentado un problema inesperado tratando de consultar la informacion de los softwares disponibles...";
+		public static final String READ_EXCEPTION_USER_MESSAGE = "Se ha presentado un problema inesperado de tipo Sql en el metodo read de la clase SoftwarePostgresqlDAO. Por favor verifique la traza completa de la excepcion presentada...";
+	}
 	
 	public static final class DetalleReservaPostgresqlDAOMessage{
 		private DetalleReservaPostgresqlDAOMessage(){
@@ -1233,6 +1264,15 @@ public final class Messages {
 		public static final String BUSINESS_RULE_PERIODO_FUNCIONAMIENTO_ID_NOT_FOUND = "Se ha presentado un problema tratando de encontrar el identificador del periodo de funcionamiento. Por favor valide los datos...";
 		public static final String BUSINESS_RULE_PERIODO_FUNCIONAMIENTO_MODIFY_INVALID= "No es posible modificar un periodo funicionamiento que se encuentra activo en este momento...";
 	}
+	
+	public static final class SoftwareBusinessImpMessage{
+		private SoftwareBusinessImpMessage() {
+			
+		}
+		public static final String BUSINESS_RULE_SOFTWARE_ID_NOT_FOUND = "Se ha presentado un problema tratando de encontrar el identificador del Software.Por favor valide los datos... ";
+	}
+	
+	
 	public static final class CentroInformaticaBusinessImpMessage{
 		private CentroInformaticaBusinessImpMessage() {
 			
